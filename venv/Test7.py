@@ -1,0 +1,11 @@
+import os
+print(os.getcwd())
+os.chdir("C:\\Users\\Narendra\\Desktop\\NewPythonTest")
+print(os.getcwd())
+#os.mkdir("NewPython2")
+#open("123.txt","w")
+#os.rename("123.txt","4567.txt")
+# os.remove("456.txt")
+file=open("4567.txt","r+")
+file1=file.read()
+print(file1)
